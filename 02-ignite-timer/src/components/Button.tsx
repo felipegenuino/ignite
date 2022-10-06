@@ -1,9 +1,11 @@
 import style from "./Button.module.css";
+import { ButtonContainer } from "./Button.styles";
 
 interface PropsButton {
-  color?: "primary" | "secondary" | "danger" | "success";
+  variant?: "primary" | "secondary" | "danger" | "success";
+  text?: string;
 }
 
-export function Button({ color = "primary" }: PropsButton) {
-  return <button className={`${style.button} ${style[color]}`}>Botão</button>;
+export function Button({ variant = "primary", text = "default" }: PropsButton) {
+  return <ButtonContainer variant={variant}>{text}</ButtonContainer>;
 }

@@ -1,0 +1,25 @@
+export const defaultTheme = {
+  colors: {
+    primary: "purple",
+    secondary: "#ff872c",
+    success: "#12a454",
+    danger: "#e83f5b",
+    shape: "#fff",
+    title: "#363f5f",
+    text: "#969cb2",
+    background: "#f0f2f5",
+    grayLine: "#dcdde0",
+    textHighlight: "#b3b9ff",
+    titleHighlight: "#dcdde0",
+    red: "#e83f5b",
+    green: "#4cd62b",
+    blue: "#5429cc",
+    blueDark: "#6933ff",
+    blueTwitter: "#2aa9e0",
+  },
+  fonts: {
+    regular: "Poppins_400Regular",
+    medium: "Poppins_500Medium",
+    bold: "Poppins_700Bold",
+  },
+};
