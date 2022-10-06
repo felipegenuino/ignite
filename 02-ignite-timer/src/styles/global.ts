@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
@@ -8,14 +8,14 @@ export const GlobalStyle = createGlobalStyle`
 
     :focus{
         outline: 1;
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors["green-500"]};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors['green-500']};
     }
     html {
         font-size: 62.5%;
     }
     body {
-        background-color: ${(props) => props.theme.colors["gray-900"]};
-        color: ${(props) => props.theme.colors["gray-300"]};
+        background-color: ${(props) => props.theme.colors['gray-900']};
+        color: ${(props) => props.theme.colors['gray-300']};
         font-family: ${(props) => props.theme.fonts.heading}, sans-serif;
         font-weight:  ${(props) => props.theme.fonts.weight.medium};
         font-size: 1.6rem;
@@ -43,4 +43,4 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 87.5%;
         }
     }
-`;
+`
